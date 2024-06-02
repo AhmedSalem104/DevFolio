@@ -1,0 +1,513 @@
+:root {
+
+  --main-color: #e65f78;
+}
+
+header {
+
+  background-image: linear-gradient(rgba(0, 0, 0, 0.534), rgba(0, 0, 0, 0.527)), url(../imgs/hero-bg.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+header .container button {
+  transition: .3s;
+
+}
+
+header .container button:hover {
+  background-color: white;
+  color: black !important;
+
+}
+
+.muted-text {
+  color: #f1f1f170;
+}
+
+header .container h2 {
+  font-size: 70px !important;
+}
+
+
+header .container h1::after {
+  content: "";
+  animation: header-animation 6s 1s infinite;
+}
+
+@keyframes header-animation {
+
+  0% {
+    content: "|";
+  }
+
+  3% {
+    content: "D|";
+  }
+
+  5% {
+    content: "De|";
+  }
+
+  7% {
+    content: "Dev|";
+  }
+
+  10% {
+    content: "Deve|";
+  }
+
+  13% {
+    content: "Devel|";
+  }
+
+  15% {
+    content: "Develo|";
+  }
+
+  17% {
+    content: "Develop|";
+  }
+
+  20% {
+    content: "Develope|";
+  }
+
+  24% {
+    content: "Developer|";
+  }
+
+  25% {
+    content: "Developer|";
+  }
+
+  27% {
+    content: "Develope|";
+  }
+
+  30% {
+    content: "Develop|";
+  }
+
+  32% {
+    content: "Develo|";
+  }
+
+  35% {
+    content: "Devel|";
+  }
+
+  37% {
+    content: "Deve|";
+  }
+
+  40% {
+    content: "Dev|";
+  }
+
+  42% {
+    content: "De|";
+  }
+
+  45% {
+    content: "Des|";
+  }
+
+  47% {
+    content: "Desi|";
+  }
+
+  50% {
+    content: "Desig|";
+  }
+
+  52% {
+    content: "Design|";
+  }
+
+  55% {
+    content: "Designe|";
+  }
+
+  57% {
+    content: "Designer|";
+  }
+
+  60% {
+    content: "Designer|";
+  }
+
+  62% {
+    content: "Designe|";
+  }
+
+  65% {
+    content: "Design|";
+  }
+
+  67% {
+    content: "Desig|";
+  }
+
+  70% {
+    content: "Desi|";
+  }
+
+  72% {
+    content: "Des|";
+  }
+
+  75% {
+    content: "De|";
+  }
+
+  77% {
+    content: "D|";
+  }
+
+  80% {
+    content: "|";
+  }
+
+  82% {
+    content: "F|";
+  }
+
+  85% {
+    content: "Fr|";
+  }
+
+  87% {
+    content: "Fre|";
+  }
+
+  90% {
+    content: "Free";
+  }
+
+  92% {
+    content: "FreeL|";
+  }
+
+  95% {
+    content: "FreeLa|";
+  }
+
+  97% {
+    content: "FreeLan|";
+  }
+
+  100% {
+    content: "FreeLanc|";
+  }
+
+
+
+
+}
+
+
+
+@keyframes shape-animation {
+
+  0% {
+    bottom: 15px;
+
+  }
+
+  25% {
+    bottom: 30px;
+
+  }
+
+  50% {
+    bottom: 45px;
+
+  }
+
+  75% {
+    bottom: 60px;
+
+  }
+
+  100% {
+    bottom: 75px;
+
+  }
+}
+
+#about .UnderLine {
+  width: 100px;
+  height: 3px;
+  background-color: #0078FF;
+}
+
+.UnderLine2 {
+  width: 40px;
+  height: 5px;
+  background-color: #0078FF;
+}
+
+.UnderLine3 {
+  width: 100px;
+  height: 4px;
+  background-color: #0078FF;
+}
+
+#about .shadow {
+  box-shadow: rgba(43, 45, 48, 0.534) 0px 1px 2px 0px, rgba(60, 64, 67, 0.808) 0px 2px 6px 2px;
+  border-radius: 3px;
+}
+
+.dropdown-item {
+  color: black
+}
+
+.navbar-nav .Sup_dropdown {}
+
+.navbar-nav a {
+  color: #fff !important;
+
+}
+
+.text-pink {
+  color: var(--main-color);
+}
+
+.about .container ul li {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: 3px solid #ccc;
+  transition: .3s;
+}
+
+.about .container ul li:hover {
+
+  border-color: var(--main-color);
+  color: var(--main-color);
+}
+
+.client {
+  background-color: #f1f1f1;
+}
+
+.carousel-indicators [data-bs-target] {
+  background-color: var(--main-color);
+  height: 7px;
+  border-radius: 15px;
+}
+
+.carousel-indicators {
+  bottom: -30px;
+
+}
+
+.nav-pills .nav-link.active {
+  background-color: var(--main-color);
+  border-radius: 15px;
+}
+
+.nav-pills .nav-link {
+  color: black;
+}
+
+.protfolio .layer {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 100%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.24);
+  transition: .3s;
+
+}
+
+.protfolio img {
+
+  transition: .3s;
+
+}
+
+.protfolio .protfolioimage:hover .layer {
+
+  top: 0;
+
+
+}
+
+.protfolio .protfolioimage:hover img {
+
+  transform: scale(1.2);
+
+
+}
+
+.blog {
+  background-color: #f1f1f1;
+}
+
+.first-inputs input {
+  width: 49%;
+
+}
+
+html {
+  scroll-padding-top: 56px;
+}
+
+.client .cards i {
+  background-color: #e65f78;
+
+}
+
+.client .div_icon {
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  border: 10px #0078FF solid;
+  transition: .5s;
+}
+
+.client .card:hover .div_icon {
+  background-color: #0078FF;
+  border: 10px #bdd5f1 solid;
+}
+
+#WORK .div_icon {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  border: 10px #CDE1F8 solid;
+
+}
+
+#WORK {
+
+  background-image: linear-gradient(rgba(60, 101, 177, 0.562), #1F74D6), url(../imgs/post-3.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+
+}
+
+#WORK .card {
+  border: transparent !important;
+  background: transparent !important;
+  color: white;
+  overflow: hidden;
+}
+
+
+#blog .card .image {
+
+  overflow: hidden;
+}
+
+#blog .icon-circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 3px #3B97FF solid;
+}
+
+#blog .card .image img {
+  transition: .7s;
+}
+
+#blog .card:hover img {
+  transform: scale(1.3);
+}
+
+.carousel-indicators [data-bs-target] {
+
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  background-color: white;
+}
+
+#contact {
+  background-image: linear-gradient(rgba(15, 187, 255, 0.562), #1F74D6), url(../imgs/overlay-bg.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.text-white {
+  color: white
+}
+
+.static_card .card .card-footer a {
+  text-decoration: none;
+  color: black;
+  transition: .5s;
+  font-size: 14px;
+}
+
+.static_card .card .card-footer a:hover {
+  color: rgb(42, 142, 255);
+}
+
+.static_card .card .btn {
+  background-color: #0078FF;
+  color: white;
+  font-size: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-30px, -90px);
+}
+
+.static_card .card .card-body {
+  position: relative;
+}
+
+#form {
+  background-image: linear-gradient(rgba(15, 187, 255, 0.562), #1F74D6), url(../imgs/overlay-bg.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+
+}
+
+.form .social-links a {
+  font-size: 20px;
+  color: black;
+}
+
+.form .social-links li {
+  width: 40px;
+  height: 40px;
+  color: black;
+  padding: 2px;
+  border: 3px #0078FF solid;
+  border-radius: 50%;
+  margin: 5px;
+
+transition: .6s;
+}
+
+.form .social-links li:hover {
+ background-color: #0078FF;
+ border: 3px #b0d5ff solid;
+
+
+}
+.form .social-links li:hover a {
+  font-size: 20px;
+  color: white;
+}
+
+.navbar-nav .drop  a{
+  color: black !important;
+}
+#drop{
+  color: white;
+}
+
